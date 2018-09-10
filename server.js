@@ -42,4 +42,11 @@ app.get('/about',(req,res) => {
   });
 });
 
+app.get('/projects',(req,res) => {
+  res.render('projects.hbs',{
+    pageTitle:'Portfolio Page',
+    welcomeMessage: 'https://github.com/sammy2511'
+  });
+});
+
 app.listen(port);
