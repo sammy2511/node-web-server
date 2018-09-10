@@ -25,9 +25,9 @@ next();
 });
 
 
-app.use((req,res) => {
-  res.render('maintainence.hbs')
-})
+// app.use((req,res) => {
+//   res.render('maintainence.hbs')
+// })
 
 app.get('/',(req,res) => {
   res.render('home.hbs',{
